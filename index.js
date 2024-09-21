@@ -3,8 +3,25 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import colors from 'colors';
 // TODO: Create an array of questions for user input
-const questions = ['What is your motivation for this project?', 'Why build it in the first place?',
- 'What problem(s) does it solve?', 'What did you learn in the process?','What makes this project stand out from the rest?'];
+// These are ALL the questions that my user will be prompted with
+const questions = ['JARVAS LINK connected, Goodmevening ...What would you like for your Title ?', 'And the description of set Project?' ,'Are there going to be any Install Instrcutions that need to be executed?', 
+    'Will I be including its Usage Information?', 'Are there any Contribution Guidelines I can add for you?', 'How will we be Testing set project: Instructions ? ',
+  ];
+
+
+
+
+
+'What is your motivation for this project?', 'Why build it in the first place?',
+ 'What problem(s) does it solve?', 'What did you learn in the process?','What makes this project stand out from the rest?'
+
+
+
+
+
+
+
+
 
 // TODO: Create a function to write README file
 // here I have created a function that will dinamically generate a README.md file with user input and if there is an error it will tell the user that 
@@ -50,16 +67,30 @@ function init() {
                 name: 'Q5',
                 message: questions[4],
             },
+           
         ])
         // here I have created a README template for my user inforomation to be added to
         
         .then((answers) => {
             const README = 
             
-`# <Your-Project-Title>
+`# <${answers.Q1}>
 
+
+# DESCRIPTION OF SET PROJECT
+${answers.Q2}
+#INSTALLATION
+${answers.Q3}
+#USAGE
+${answers.Q4}
+#CONSTRIBUTION GUIDELINES
+${answers.Q5}
+#TESTING
+${answers.Q6}
 
 -## USER STORY
+
+
 
 =As a <USER_ROLE>,
 --I want to <USER_STORY>,
