@@ -2,14 +2,16 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 // TODO: Create an array of questions for user input
-const questions = ['What is your motivation for this project?', 'Why build it?',
- 'What problem does it solve?', 'what did you learn?','What makes this projectstand out?'];
+const questions = ['What is your motivation for this project?', 'Why build it in the first place?',
+ 'What problem(s) does it solve?', 'What did you learn in the process?','What makes this project stand out from the rest?'];
 
 // TODO: Create a function to write README file
+// here I have created a function that will dinamically generate a README.md file with user input and if there is an error it will tell the user that 
+// an error wass thrown.
 function writeToFile(README, data) {
     fs.writeFile(README.md, data, (err) => {
         if (err) {
-            console.log('What the stuff??, we got an error!', err);
+            console.log('Space Controle to Ground Control, we have an fatal ERROR!!', err);
         } else {
             console.log('README.md file has been created!');
         }
@@ -18,6 +20,7 @@ function writeToFile(README, data) {
 
 // TODO: Create a function to initialize app
 // Initialize the app
+// These are the questions I want my user to be addrssedd with to add to the README template
 function init() {
     inquirer
         .prompt([
@@ -47,6 +50,7 @@ function init() {
                 message: questions[4],
             },
         ])
+        // here I have created a README template for my user inforomation to be added to
         
         .then((answers) => {
             const README = 
@@ -96,12 +100,12 @@ Provide a short description explaining the what, why, and how of your project. U
 - [Credits](#credits)
 
 - [License](#license)`;
-
+// here I needed to create function that would write the file and tell me if there was an ERROR in doing so
 fs.writeFile('README.md', README, (err) => {
     if (err) {
-    console.log('An error occurred while writing README file:', err);
+    console.log('Space Controle to Ground Control, we have an fatal ERROR!!', err);
     } else {
-    console.log('README.md has been created!');
+    console.log('We have lift off Ladies and Gents, ready for mission- "README"!');
     }
     });
 });
