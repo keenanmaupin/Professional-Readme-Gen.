@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import colors from 'colors';
 // TODO: Create an array of questions for user input
 const questions = ['What is your motivation for this project?', 'Why build it in the first place?',
  'What problem(s) does it solve?', 'What did you learn in the process?','What makes this project stand out from the rest?'];
@@ -11,9 +12,9 @@ const questions = ['What is your motivation for this project?', 'Why build it in
 function writeToFile(README, data) {
     fs.writeFile(README.md, data, (err) => {
         if (err) {
-            console.log('Space Controle to Ground Control, we have an fatal ERROR!!', err);
+            console.log(colors.red('Space Controle to Ground Control, we have an fatal ERROR!!'), err);
         } else {
-            console.log('README.md file has been created!');
+            console.log(colors.green('README.md file has been created!'));
         }
     });
 } 
@@ -103,9 +104,9 @@ Provide a short description explaining the what, why, and how of your project. U
 // here I needed to create function that would write the file and tell me if there was an ERROR in doing so
 fs.writeFile('README.md', README, (err) => {
     if (err) {
-    console.log('Space Controle to Ground Control, we have an fatal ERROR!!', err);
+    console.log(colors.red('Space Controle to Ground Control, we have an fatal ERROR!!'), err);
     } else {
-    console.log('We have lift off Ladies and Gents, ready for mission- "README"!');
+    console.log(colors.green('We have lift off Ladies and Gents, ready for mission- "README"!'));
     }
     });
 });
