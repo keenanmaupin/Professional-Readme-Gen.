@@ -159,7 +159,7 @@ function init() {
 
 - [Contributions](#contributions)
 
-- [Testings](#testings)
+- [Testing](#testing)
 
 - [User Story](#user-story)
 
