@@ -161,11 +161,11 @@ function init() {
 
 - [Testings](#testings)
 
-- [USER STORY](#user-story)
+- [User Story](#user-story)
 
 - [Acceptance Criteria](#acceptance-criteria)
 
-- [QUESTIONS](#questions)
+- [Questions](#questions)
 
 
 
@@ -197,17 +197,17 @@ function init() {
 ## Contributions
 - ${answers.Q5}
 -------------------------------------------------------
-## 🕯️User Story🕯️
-<${answers.Q12}>
+## User Story
+- 🕯️<${answers.Q12}>
 
-## 🕯️Acceptance Criteria🕯️
-<${answers.Q13}>
+## Acceptance Criteria
+- 🕯️<${answers.Q13}>
 -------------------------------------------------------
 
-## 🧪TESTING
-<${answers.Q6}>
+## Testing🧪
+- <${answers.Q6}>
 
-## 🖍️QUESTIONS
+## Questions🖍️
 - [GitHub]:<${answers.Q8}>
 
 // !ADD THIS TO FINALE README
