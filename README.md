@@ -1,12 +1,10 @@
 - TITLE:
-- 👑[title]
+- 👑[na]
 
 // ! GET BADGES TO APPEAR
-![email💸]
-![GibHub🪙]
+![linkedIn🪙💸]
 
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
-
 
 - 🧭 Table of Contents 🧭 
 
@@ -31,49 +29,49 @@
 
 
 -------------------------------------------------------
-- #[LICENSE]
+- [LICENSE]
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
-(https://img.shields.io/badge/License-MIT-blue.svg)]
-(https://opensource.org/licenses/MIT)
+(https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
+(https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
 
-- [DESCRIPTION-OF-PROJECT]
+## DESCRIPTION-OF-PROJECT] 
 
 🪝[Quick-Referance-I.D.]
-- <n/a>
+- <na>
 
 🪝[In-Depth-I.D.]
-- <>
-- <>
-- <>
-- <> <>
+- <na>
+- <na>
+- <na>
+- <na> <na>
 
 -------------------------------------------------------
 -------------------------------------------------------
 - 🕯️[USER-STORY]🕯️
-<keenanmaupin>
+<na>
 
 - 🕯️[Acceptance-Criteria] 🕯️
-<>
+<na>
 -------------------------------------------------------
 
 - 🧪[TESTING]
-<n/a>
+<na>
 
 - 🖍️[QUESTIONS]
-- [GitHub]:<keenanmaupin>
+- [GitHub]:<na>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
 
-https://github.com/keenanmaupin
+https://github.com/na
 
-- [EmailAddress]:<email>🍄
-- [LinkedIn]:<linkIn>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<GibHub>🪵
+- [EmailAddress]:<na>🍄
+- [LinkedIn]:<na>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<linkedIn>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.

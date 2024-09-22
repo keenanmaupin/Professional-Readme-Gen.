@@ -151,7 +151,7 @@ function init() {
 
 - [License](#license)
 
-- <a href ="#description">[Description](#description)</a>
+- [Description](#description)
 
 - [Installation](#installation)
 
@@ -170,14 +170,14 @@ function init() {
 
 
 -------------------------------------------------------
-- #[LICENSE]
+- [LICENSE]
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
-- <[DESCRIPTION-OF-PROJECT] id= "description">
+## DESCRIPTION-OF-PROJECT] 
 
 🪝[Quick-Referance-I.D.]
 - <${answers.Q2}>
