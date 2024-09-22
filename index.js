@@ -139,14 +139,17 @@ function init() {
         .then((answers) => {
             const README = 
             
-`-##TITLE:
--## =::[${answers.Q1}]::=
+`- TITLE:
+- =::[${answers.Q1}]::=
+![${answers.Q9}](https://img.shields.io/badge/dungeonsanddragons-${answers.Q9}-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
+![${answers.Q8}](https://img.shields.io/badge/fireflyiii-${answers.Q8}-#CD5029?style=for-the-badge&logo=fireflyiii)
+https://img.shields.io/badge/License-${answers.Q7}-blue.svg
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 -##[BADGE]
 // ! GET BADGESTO APPEAR
 [badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
--## 📖 Table of Contents📖 
+- 📖 Table of Contents📖 
 
 - [Description](#description)
 
@@ -167,39 +170,35 @@ function init() {
 - [QUESTIONS](#questions)
 
 
--##[LICENSE]
-![License:${answers.Q7}](https://img.shields.io/badge/${answers.Q7}-License-#FFDD00?style=for-the-badge&logo=buymeacoffee)
-![${answers.Q9}](https://img.shields.io/badge/${answers.Q9}-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
-![${answers.Q8}](https://img.shields.io/badge/${answers.Q8}-#CD5029?style=for-the-badge&logo=fireflyiii)
+- #[LICENSE]
 
 [![License]
 // !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
--##[DESCRIPTION-OF-PROJECT]
+- [DESCRIPTION-OF-PROJECT]
 
 🏆[Quick-Referance-I.D.]
-<${answers.Q2}>
+- <${answers.Q2}>
 
 🏆[In-Depth-I.D.]
-<${answers.Q14}>
-<${answers.Q15}>
-<${answers.Q16}>
-<${answers.Q17}>
-<${answers.Q18}>
+- <${answers.Q14}>
+- <${answers.Q15}>
+- <${answers.Q16}>
+- <${answers.Q17}> <${answers.Q18}>
 
 
--##[TESTING]
+- [TESTING]
 <${answers.Q6}>
 
--##[USER-STORY]
+- [USER-STORY]
 <${answers.Q12}>
 
--##[Acceptance-Criteria]
+- [Acceptance-Criteria]
 <${answers.Q13}>
 
--##📝[QUESTIONS]
+- 📝[QUESTIONS]
 <${answers.Q8}>
 
 // !ADD THIS TO FINALE README
@@ -207,12 +206,12 @@ function init() {
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
 --------------------------------------------------------
--##[GitHub]
+- [GitHub]
 https://github.com/${answers.Q8}
 
--##[EmailAddress]:<${answers.Q9}>
--##[LinkedIn]:<${answers.Q11}>
--##[Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>
+- [EmailAddress]:<${answers.Q9}>
+- [LinkedIn]:<${answers.Q11}>
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.`
