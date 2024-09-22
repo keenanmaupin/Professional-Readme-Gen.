@@ -1,15 +1,14 @@
 - TITLE:
-- =::[N/A]::=
--##[BADGE(s)]
-![N/A](https://img.shields.io/badge/dungeonsanddragons-N/A-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
-![N/A](https://img.shields.io/badge/fireflyiii-N/A-#CD5029?style=for-the-badge&logo=fireflyiii)
-https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg
+- 👑[N/A]
+
+// ! GET BADGES TO APPEAR
+![N/A💸]
+![linkedIn🪙]
+
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 
-// ! GET BADGESTO APPEAR
 
-
-- 📖 Table of Contents📖 
+- 🧭 Table of Contents 🧭 
 
 - [Description](#description)
 
@@ -29,36 +28,39 @@ https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.s
 
 - [QUESTIONS](#questions)
 
-
 - #[LICENSE]
 
-[![License]
+-------------------------------------------------------
+
+[[License]
 // !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
 (https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
 
 - [DESCRIPTION-OF-PROJECT]
 
-🏆[Quick-Referance-I.D.]
+🪝[Quick-Referance-I.D.]
 - <N/A>
 
-🏆[In-Depth-I.D.]
+🪝[In-Depth-I.D.]
 - <N/A>
 - <N/A>
 - <N/A>
 - <N/A> <N/A>
 
-
-- [TESTING]
+-------------------------------------------------------
+-------------------------------------------------------
+- 🕯️[USER-STORY]🕯️
 <N/A>
 
-- [USER-STORY]
+- 🕯️[Acceptance-Criteria] 🕯️
+<N/A>
+-------------------------------------------------------
+
+-🧪[TESTING]
 <N/A>
 
-- [Acceptance-Criteria]
-<N/A>
-
-- 📝[QUESTIONS]
+- 🖍️[QUESTIONS]
 <N/A>
 
 // !ADD THIS TO FINALE README
@@ -69,9 +71,9 @@ https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.s
 - [GitHub]
 https://github.com/N/A
 
-- [EmailAddress]:<N/A>
-- [LinkedIn]:<linkedIn>
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<N/A>
+- [EmailAddress]:<N/A>🍄
+- [LinkedIn]:<linkedIn>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<N/A>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.
