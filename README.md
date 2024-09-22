@@ -36,7 +36,7 @@
 (https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
 (https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
 
-## DESCRIPTION-OF-PROJECT] 
+## Description
 
 🪝[Quick-Referance-I.D.]
 - <na>

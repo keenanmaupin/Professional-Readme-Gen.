@@ -177,7 +177,7 @@ function init() {
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
-## DESCRIPTION-OF-PROJECT] 
+## Description
 
 🪝[Quick-Referance-I.D.]
 - <${answers.Q2}>
