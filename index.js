@@ -140,17 +140,16 @@ function init() {
             const README = 
             
 `- TITLE:
-- =::[${answers.Q1}]::=
--##[BADGE(s)]
-![${answers.Q9}](https://img.shields.io/badge/dungeonsanddragons-${answers.Q9}-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
-![${answers.Q8}](https://img.shields.io/badge/fireflyiii-${answers.Q8}-#CD5029?style=for-the-badge&logo=fireflyiii)
-https://img.shields.io/badge/License-${answers.Q7}-blue.svg
+- 👑[${answers.Q1}]
+
+// ! GET BADGES TO APPEAR
+![${answers.Q9}💸]
+![${answers.Q11}🪙]
+
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 
-// ! GET BADGESTO APPEAR
 
-
-- 📖 Table of Contents📖 
+- 🧭 Table of Contents 🧭 
 
 - [Description](#description)
 
@@ -170,36 +169,39 @@ https://img.shields.io/badge/License-${answers.Q7}-blue.svg
 
 - [QUESTIONS](#questions)
 
-
 - #[LICENSE]
 
-[![License]
+-------------------------------------------------------
+
+[[License]
 // !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
 - [DESCRIPTION-OF-PROJECT]
 
-🏆[Quick-Referance-I.D.]
+🪝[Quick-Referance-I.D.]
 - <${answers.Q2}>
 
-🏆[In-Depth-I.D.]
+🪝[In-Depth-I.D.]
 - <${answers.Q14}>
 - <${answers.Q15}>
 - <${answers.Q16}>
 - <${answers.Q17}> <${answers.Q18}>
 
-
-- [TESTING]
-<${answers.Q6}>
-
-- [USER-STORY]
+-------------------------------------------------------
+-------------------------------------------------------
+- 🕯️[USER-STORY]🕯️
 <${answers.Q12}>
 
-- [Acceptance-Criteria]
+- 🕯️[Acceptance-Criteria] 🕯️
 <${answers.Q13}>
+-------------------------------------------------------
 
-- 📝[QUESTIONS]
+-🧪[TESTING]
+<${answers.Q6}>
+
+- 🖍️[QUESTIONS]
 <${answers.Q8}>
 
 // !ADD THIS TO FINALE README
@@ -210,9 +212,9 @@ https://img.shields.io/badge/License-${answers.Q7}-blue.svg
 - [GitHub]
 https://github.com/${answers.Q8}
 
-- [EmailAddress]:<${answers.Q9}>
-- [LinkedIn]:<${answers.Q11}>
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>
+- [EmailAddress]:<${answers.Q9}>🍄
+- [LinkedIn]:<${answers.Q11}>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.`
