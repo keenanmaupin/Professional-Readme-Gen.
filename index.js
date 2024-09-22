@@ -172,10 +172,13 @@ function init() {
 -------------------------------------------------------
 ## License
 
-[[License]
+- [License]
 // !CORRECT DYNAIC LICENSE INPUT
-(https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
-(https://opensource.org/licenses/${answers.Q7})
+
+![License](https://img.shields.io/badge/license-${answers.Q7}-green)
+
+This project is licensed under the [${answers.Q7}](LICENSE)
+=========================================================================================================
 
 ## Description
 

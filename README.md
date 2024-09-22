@@ -1,5 +1,5 @@
 - TITLE:
-- 👑[na]
+- 👑[TITLE]
 
 // ! GET BADGES TO APPEAR
 ![linkedIn🪙💸]
@@ -18,7 +18,7 @@
 
 - [Contributions](#contributions)
 
-- [Testings](#testings)
+- [Testing](#testing)
 
 - [User Story](#user-story)
 
@@ -33,51 +33,54 @@
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
-(https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
-(https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
+
+![License](https://img.shields.io/badge/license-Creative Commons Zero v1.0 Universal-green)
+
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE)
+=========================================================================================================
 
 ## Description
 
 🪝[Quick-Referance-I.D.]
-- <na>
+- <TITLE>
 
 🪝[In-Depth-I.D.]
-- <na>
-- <na>
-- <na>
-- <na> 
-- <na>
+- <TITLE>
+- <TITLE>
+- <TITLE>
+- <TITLE> 
+- <TITLE>
 
 -------------------------------------------------------
 ## Installation
-- na
+- TITLE
 ## Usage
-- na
+- TITLE
 ## Contributions
-- na
+- TITLE
 -------------------------------------------------------
 ## User Story
-- 🕯️<na>
+- 🕯️<TITLE>
 
 ## Acceptance Criteria
-- 🕯️<na>
+- 🕯️<TITLE>
 -------------------------------------------------------
 
 ## Testing
-- 🧪<na>
+- 🧪<TITLE>
 
 ## Questions
-- 🖍️[GitHub]:<na>
+- 🖍️[GitHub]:<TITLE>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
 
-https://github.com/na
+https://github.com/TITLE
 
-- [EmailAddress]:<na>🍄
-- [LinkedIn]:<na>🪨
+- [EmailAddress]:<TITLE>🍄
+- [LinkedIn]:<TITLE>🪨
 - [Best.way.to.get.ahold.of.me.for.further.Question(s):]<linkedIn>🪵
 
 ---
