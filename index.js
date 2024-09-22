@@ -5,14 +5,14 @@ import colors from 'colors';
 
 // TODO: Create an array of questions for user input
 // These are ALL the questions that my user will be prompted with
-const questions = ['JARVIIS LINK connected , Good-Evening ...What would you like for your Title ?',
-     'And A Short-Hand Description of set Project ?' ,'Are there going to be any Install Instrcutions ::If-Not [N/A] for Future Aid:: Follow PREVIOUSE COMMAND for incoming QUESTIONS ?', 
+const questions = ['JARVIIS LINK connected , Good-Evening ...What would you like for your TITLE ?',
+     'Short-Hand Description of set Project ?' ,'Are there going to be any Install Instrcutions ::If-Not [N/A] for Future Aid:: Follow PREVIOUSE COMMAND for Incoming QUESTIONS ?', 
     'Will I be including its Usage Information ?', 'Are there any Contribution Guidelines I can add for you ?', 
     'How will we be Testing set project: Instructions ?','And will there be a License I can apply for you',
      'Requesting GitHub: UserName','Email Address: Please ','Would you like me to provide a LinkedIn account ?',
-     'How best to contact you ?','USER STORY ?','ACCEPTANCE CRITERIA ?',
+     'How best to contact you for future Question(s)?','USER STORY ?','ACCEPTANCE CRITERIA ?',
     'What is your Motivation for this project ?', 'Why Build it in the first place ?',
-    'What Problem(s) does it solve ?', 'What did you Learn in the process? ','What makes this project Stand Out from the rest ?'];
+    'What Problem(s) does it solve ?', 'What did we Learn in the Process? ','What makes this project Stand Out from the rest ?'];
 
 
 
@@ -139,10 +139,14 @@ function init() {
         .then((answers) => {
             const README = 
             
-`-## <${answers.Q1}>
+`-##TITLE:
+-## =::[${answers.Q1}]::=
+// ! ADD 'SRC' TO ALL CONTENTS IN TABLE
+-##[BADGE]
+// ! GET BADGESTO APPEAR
+[badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-
--## Table of Contents
+-## 📖 Table of Contents📖 
 
 - [Description](#description)
 
@@ -164,47 +168,59 @@ function init() {
 
 
 -##LICENSE
-[![License](https://img.shields.io/badge/License-${answers.Q7}-blue.svg)](https://opensource.org/licenses/${answers.Q7})
+
+This project is licensed under the [${answers.Q7}] License - see the LICENSE.md file for details
+
+[![License]
+(https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
+(https://opensource.org/licenses/${answers.Q7})
+
+-##[DESCRIPTION-OF-PROJECT]
+
+🏆[Quick-Referance-I.D.]
+<${answers.Q2}>
+
+🏆[In-Depth-I.D.]
+<${answers.Q14}>
+<${answers.Q15}>
+<${answers.Q16}>
+<${answers.Q17}>
+<${answers.Q18}>
 
 
+-##[TESTING]
+<${answers.Q6}>
 
--## DESCRIPTION OF SET PROJECT
--##TITLE:
-${answers.Q2}
+-##[USER-STORY]
+<${answers.Q12}>
 
-=#${answers.Q14}
-=#${answers.Q15}
-=#${answers.Q16}
-=#${answers.Q17}
-=#${answers.Q18}
-#INSTALLATION
-${answers.Q3}
-#USAGE
-${answers.Q4}
-#CONSTRIBUTION GUIDELINES
-${answers.Q5}
-#TESTING
-${answers.Q6}
+-##[Acceptance-Criteria]
+<${answers.Q13}>
 
--## USER STORY
-${answers.Q12}
--## Acceptance Criteria
-${answers.Q13}
--## QUESTIONS
-${answers.Q8}
+-##📝[QUESTIONS]
+<${answers.Q8}>
+
+// !ADD THIS TO FINALE README
+// ?[Refer to the documentation:]
+// ?[Node.js documentation](https://nodejs.org/en/docs/)
+
+--------------------------------------------------------
+-##[GitHub]
 https://github.com/${answers.Q8}
 
--EmailAddress: ${answers.Q9}
--LinkedIn:${answers.Q11}
-=Best way to get ahold of me for further questions is:
-${answers.Q10}`
+-##[EmailAddress]:<${answers.Q9}>
+-##[LinkedIn]:<${answers.Q11}>
+-##[Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>
+
+---
+© 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.`
 
 // here I needed to create function that would write the file and tell me if there was an ERROR in doing so
 fs.writeFile('README.md', README, (err) => {
     if (err) {
     console.log(colors.red('Space Controle to Ground Control, we have an fatal ERROR!!'), err);
     } else {
-    console.log(colors.green('We have lift off Ladies and GentalMan, Clear!-Clear!, READY For Mission- "README"!'));
+    console.log(colors.green('We have lift off Ladies and GentalMan, Clear!-Clear!, READY For Mission-"README"!'));
     }
     });
 });
