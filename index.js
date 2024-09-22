@@ -204,11 +204,11 @@ function init() {
 - 🕯️<${answers.Q13}>
 -------------------------------------------------------
 
-## Testing🧪
-- <${answers.Q6}>
+## Testing
+- 🧪<${answers.Q6}>
 
-## Questions🖍️
-- [GitHub]:<${answers.Q8}>
+## Questions
+- 🖍️[GitHub]:<${answers.Q8}>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
