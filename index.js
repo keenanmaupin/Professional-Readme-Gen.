@@ -141,13 +141,14 @@ function init() {
             
 `- TITLE:
 - =::[${answers.Q1}]::=
+-##[BADGE(s)]
 ![${answers.Q9}](https://img.shields.io/badge/dungeonsanddragons-${answers.Q9}-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
 ![${answers.Q8}](https://img.shields.io/badge/fireflyiii-${answers.Q8}-#CD5029?style=for-the-badge&logo=fireflyiii)
 https://img.shields.io/badge/License-${answers.Q7}-blue.svg
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
--##[BADGE]
+
 // ! GET BADGESTO APPEAR
-[badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
 
 - 📖 Table of Contents📖 
 
