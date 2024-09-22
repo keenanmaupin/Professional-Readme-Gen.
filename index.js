@@ -167,11 +167,13 @@ function init() {
 - [QUESTIONS](#questions)
 
 
--##LICENSE
-
-This project is licensed under the [${answers.Q7}] License - see the LICENSE.md file for details
+-##[LICENSE]
+![License:${answers.Q7}](https://img.shields.io/badge/${answers.Q7}-License-#FFDD00?style=for-the-badge&logo=buymeacoffee)
+![${answers.Q9}](https://img.shields.io/badge/${answers.Q9}-#ED1C24?style=for-the-badge&logo=dungeonsanddragons)
+![${answers.Q8}](https://img.shields.io/badge/${answers.Q8}-#CD5029?style=for-the-badge&logo=fireflyiii)
 
 [![License]
+// !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
