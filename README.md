@@ -1,22 +1,22 @@
 - TITLE:
-- 👑[N/A]
+- 👑[title]
 
 // ! GET BADGES TO APPEAR
-![N/A💸]
-![linkedIn🪙]
+![email💸]
+![GibHub🪙]
 
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 
 
 - 🧭 Table of Contents 🧭 
 
+- [License](#license)
+
 - [Description](#description)
 
 - [Installation](#installation)
 
 - [Usage](#usage)
-
-- [License](#license)
 
 - [Contrbuttions](#contributions)
 
@@ -28,52 +28,52 @@
 
 - [QUESTIONS](#questions)
 
-- #[LICENSE]
+
 
 -------------------------------------------------------
+- #[LICENSE]
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
-(https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
-(https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
+(https://img.shields.io/badge/License-MIT-blue.svg)]
+(https://opensource.org/licenses/MIT)
 
 - [DESCRIPTION-OF-PROJECT]
 
 🪝[Quick-Referance-I.D.]
-- <N/A>
+- <n/a>
 
 🪝[In-Depth-I.D.]
-- <N/A>
-- <N/A>
-- <N/A>
-- <N/A> <N/A>
+- <>
+- <>
+- <>
+- <> <>
 
 -------------------------------------------------------
 -------------------------------------------------------
 - 🕯️[USER-STORY]🕯️
-<N/A>
+<keenanmaupin>
 
 - 🕯️[Acceptance-Criteria] 🕯️
-<N/A>
+<>
 -------------------------------------------------------
 
--🧪[TESTING]
-<N/A>
+- 🧪[TESTING]
+<n/a>
 
 - 🖍️[QUESTIONS]
-<N/A>
+- [GitHub]:<keenanmaupin>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
---------------------------------------------------------
-- [GitHub]
-https://github.com/N/A
 
-- [EmailAddress]:<N/A>🍄
-- [LinkedIn]:<linkedIn>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<N/A>🪵
+https://github.com/keenanmaupin
+
+- [EmailAddress]:<email>🍄
+- [LinkedIn]:<linkIn>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<GibHub>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.

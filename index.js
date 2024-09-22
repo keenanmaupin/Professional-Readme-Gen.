@@ -143,21 +143,19 @@ function init() {
 - 👑[${answers.Q1}]
 
 // ! GET BADGES TO APPEAR
-![${answers.Q9}💸]
-![${answers.Q11}🪙]
+![${answers.Q11}🪙💸]
 
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 
-
 - 🧭 Table of Contents 🧭 
 
-- [Description](#description)
+- [License](#license)
+
+- <a href ="#description">[Description](#description)</a>
 
 - [Installation](#installation)
 
 - [Usage](#usage)
-
-- [License](#license)
 
 - [Contrbuttions](#contributions)
 
@@ -169,16 +167,17 @@ function init() {
 
 - [QUESTIONS](#questions)
 
-- #[LICENSE]
+
 
 -------------------------------------------------------
+- #[LICENSE]
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
 (https://img.shields.io/badge/License-${answers.Q7}-blue.svg)]
 (https://opensource.org/licenses/${answers.Q7})
 
-- [DESCRIPTION-OF-PROJECT]
+- <[DESCRIPTION-OF-PROJECT] id= "description">
 
 🪝[Quick-Referance-I.D.]
 - <${answers.Q2}>
@@ -198,23 +197,22 @@ function init() {
 <${answers.Q13}>
 -------------------------------------------------------
 
--🧪[TESTING]
+- 🧪[TESTING]
 <${answers.Q6}>
 
 - 🖍️[QUESTIONS]
-<${answers.Q8}>
+- [GitHub]:<${answers.Q8}>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
---------------------------------------------------------
-- [GitHub]
+
 https://github.com/${answers.Q8}
 
 - [EmailAddress]:<${answers.Q9}>🍄
-- [LinkedIn]:<${answers.Q11}>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q10}>🪵
+- [LinkedIn]:<${answers.Q10}>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q11}>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.`
