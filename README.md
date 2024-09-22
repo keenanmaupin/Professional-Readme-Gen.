@@ -1,8 +1,8 @@
 - TITLE:
-- 👑[na]
+- 👑[TITLE]
 
 // ! GET BADGES TO APPEAR
-![linkedIn🪙💸]
+![Email🪙💸]
 
 // ! ADD 'SRC' TO ALL CONTENTS IN TABLE
 
@@ -16,7 +16,7 @@
 
 - [Usage](#usage)
 
-- [Contrbuttions](#contributions)
+- [Contributions](#contributions)
 
 - [Testings](#testings)
 
@@ -29,49 +29,56 @@
 
 
 -------------------------------------------------------
-- [LICENSE]
+## License
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
-(https://img.shields.io/badge/License-Creative Commons Zero v1.0 Universal-blue.svg)]
-(https://opensource.org/licenses/Creative Commons Zero v1.0 Universal)
+(https://img.shields.io/badge/License-MIT-blue.svg)]
+(https://opensource.org/licenses/MIT)
 
 ## Description
 
 🪝[Quick-Referance-I.D.]
-- <na>
+- <SHORT HAND DISCRIPT>
 
 🪝[In-Depth-I.D.]
-- <na>
-- <na>
-- <na>
-- <na> <na>
+- <MOTIVATION >
+- <BUILT WHYYY>
+- <PROBLMES SOLVEDDDD>
+- <LEARNEDDDD> 
+- <STANDSSS OUT>
 
 -------------------------------------------------------
+## Installation
+- INSTALL
+## Usage
+- USAGE INFO
+## Contributions
+- CONTRIBUTIONS
 -------------------------------------------------------
-- 🕯️[USER-STORY]🕯️
-<na>
+## 🕯️User Story🕯️
+<USER STORYYYYY>
 
-- 🕯️[Acceptance-Criteria] 🕯️
-<na>
+## 🕯️Acceptance Criteria🕯️
+<ACCEPTTTTT>
 -------------------------------------------------------
 
-- 🧪[TESTING]
-<na>
+## 🧪TESTING
+<TESTING >
 
-- 🖍️[QUESTIONS]
-- [GitHub]:<na>
+## 🖍️QUESTIONS
+- [GitHub]:<KEENANMAUPIN>
 
 // !ADD THIS TO FINALE README
 // ?[Refer to the documentation:]
 // ?[Node.js documentation](https://nodejs.org/en/docs/)
 
 
-https://github.com/na
+https://github.com/KEENANMAUPIN
 
-- [EmailAddress]:<na>🍄
-- [LinkedIn]:<na>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<linkedIn>🪵
+- [EmailAddress]:<EMAIL>🍄
+- [LinkedIn]:<LINKED>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<Email>🪵
 
 ---
 © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.

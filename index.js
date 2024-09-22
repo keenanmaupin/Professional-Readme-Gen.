@@ -157,7 +157,7 @@ function init() {
 
 - [Usage](#usage)
 
-- [Contrbuttions](#contributions)
+- [Contributions](#contributions)
 
 - [Testings](#testings)
 
@@ -170,7 +170,7 @@ function init() {
 
 
 -------------------------------------------------------
-- [LICENSE]
+## License
 
 [[License]
 // !CORRECT DYNAIC LICENSE INPUT
@@ -186,21 +186,28 @@ function init() {
 - <${answers.Q14}>
 - <${answers.Q15}>
 - <${answers.Q16}>
-- <${answers.Q17}> <${answers.Q18}>
+- <${answers.Q17}> 
+- <${answers.Q18}>
 
 -------------------------------------------------------
+## Installation
+- ${answers.Q3}
+## Usage
+- ${answers.Q4}
+## Contributions
+- ${answers.Q5}
 -------------------------------------------------------
-- 🕯️[USER-STORY]🕯️
+## 🕯️User Story🕯️
 <${answers.Q12}>
 
-- 🕯️[Acceptance-Criteria] 🕯️
+## 🕯️Acceptance Criteria🕯️
 <${answers.Q13}>
 -------------------------------------------------------
 
-- 🧪[TESTING]
+## 🧪TESTING
 <${answers.Q6}>
 
-- 🖍️[QUESTIONS]
+## 🖍️QUESTIONS
 - [GitHub]:<${answers.Q8}>
 
 // !ADD THIS TO FINALE README
