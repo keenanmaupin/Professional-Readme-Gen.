@@ -134,88 +134,10 @@ function init() {
         
     ]).then((answers) => {
 const README = generateMarkdown(answers)
-// `- TITLE:
-// - 👑${answers.Q1}
-
-// - ${answers.Q11}🪙💸
-
-// - ${renderLicenseBadge(answers.Q7)}
-
-// - 🧭 Table of Contents 🧭 
-
-// - [License](#license)
-
-// - [Description](#description)
-
-// - [Installation](#installation)
-
-// - [Usage](#usage)
-
-// - [Contributions](#contributions)
-
-// - [Testing](#testing)
-
-// - [User Story](#user-story)
-
-// - [Acceptance Criteria](#acceptance-criteria)
-
-// - [Questions](#questions)
-
-
-
-// -------------------------------------------------------
-// ## License
-// - ${renderLicenseSection(answers.Q7)}
-// ## Description
-
-// 🪝[Quick-Referance-I.D.] 
-// - <${answers.Q2}>
-
-// 🪝[In-Depth-I.D.] 
-// - <${answers.Q14}>
-// - <${answers.Q15}>
-// - <${answers.Q16}>
-// - <${answers.Q17}> 
-// - <${answers.Q18}>
-
-// -------------------------------------------------------
-// ## Installation
-// - ${answers.Q3}
-// ## Usage
-// - ${answers.Q4}
-// ## Contributions
-// - ${answers.Q5}
-// -------------------------------------------------------
-// ## User Story
-// - 🕯️<${answers.Q12}>
-
-// ## Acceptance Criteria
-// - 🕯️<${answers.Q13}>
-// -------------------------------------------------------
-
-// ## Testing
-// - 🧪<${answers.Q6}>
-
-// ## Questions
-// - 🖍️[GitHub]:<${answers.Q8}> 
-
-
-// https://github.com/${answers.Q8}
-
-// - [EmailAddress]:<${answers.Q9}>🍄
-// - [LinkedIn]:<${answers.Q10}>🪨
-// - [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q11}>🪵
-
-// ---
-
-// [![DungeonsAndDragons](https://cdn3.emoji.gg/emojis/2932-dungeonsanddragons.gif)](https://emoji.gg/emoji/2932-dungeonsanddragons)
-// © 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved. Roll for Success🧙🏾‍♂️.`
-            
-            
 
 
 // here I needed to create function that would write the file and tell me if there was an ERROR in doing so
-fs.writeFile('READMEnew.md', README, (err) => {
+fs.writeFile('README.md', README, (err) => {
     if (err) {
     console.log(colors.red('Space Controle to Ground Control, we have an fatal ERROR!!'), err);
     } else {

@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
   } else if (license === '[NONE]') {
     return '[NONE]';
   }
-};
+}
 
 
 
