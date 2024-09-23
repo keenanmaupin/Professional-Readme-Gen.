@@ -1,10 +1,9 @@
 - TITLE:
-- 👑[TITLE]
+- 👑JARVIIS README autoGen.
 
-// ! GET BADGES TO APPEAR
-![linkedIn🪙💸]
+- Email🪙💸
 
-// ! ADD 'SRC' TO ALL CONTENTS IN TABLE
+- [NONE]
 
 - 🧭 Table of Contents 🧭 
 
@@ -30,58 +29,48 @@
 
 -------------------------------------------------------
 ## License
-
-[[License]
-// !CORRECT DYNAIC LICENSE INPUT
-
-![License](https://img.shields.io/badge/license-Creative Commons Zero v1.0 Universal-green)
-
-This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE)
-=========================================================================================================
-
+- [NONE]
 ## Description
 
-🪝[Quick-Referance-I.D.]
-- <TITLE>
+🪝[Quick-Referance-I.D.] 
+- <This project will prompt user questions to create a README with their inputs>
 
-🪝[In-Depth-I.D.]
-- <TITLE>
-- <TITLE>
-- <TITLE>
-- <TITLE> 
-- <TITLE>
+🪝[In-Depth-I.D.] 
+- <To be more efficient in creating a professional README so I could be more  so focused on the main point of which ever project I were to be working on. >
+- <Make creating a README quicker and less having to go back afterwards to make.>
+- <You wont have togo back at the end of your projects completion to create one.>
+- <How to properly use node export and utalizing Inquirer> 
+- <Personalized JARVIIS prompts and detail>
 
 -------------------------------------------------------
 ## Installation
-- TITLE
+- [NONE]
 ## Usage
-- TITLE
+- N/A
 ## Contributions
-- TITLE
+- [NONE]
 -------------------------------------------------------
 ## User Story
-- 🕯️<TITLE>
+- 🕯️<COPY AND FILL FROM CHALLANGE README>
 
 ## Acceptance Criteria
-- 🕯️<TITLE>
+- 🕯️<COPY AND FILL FROM CHALLANGE README>
 -------------------------------------------------------
 
 ## Testing
-- 🧪<TITLE>
+- 🧪<N/A>
 
 ## Questions
-- 🖍️[GitHub]:<TITLE>
-
-// !ADD THIS TO FINALE README
-// ?[Refer to the documentation:]
-// ?[Node.js documentation](https://nodejs.org/en/docs/)
+- 🖍️[GitHub]:<keenanmaupin> 
 
 
-https://github.com/TITLE
+https://github.com/keenanmaupin
 
-- [EmailAddress]:<TITLE>🍄
-- [LinkedIn]:<TITLE>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<linkedIn>🪵
+- [EmailAddress]:<maupin.keenan97@gmail.com>🍄
+- [LinkedIn]:<[NONE]>🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<Email>🪵
 
 ---
-© 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved.
+
+[![DungeonsAndDragons](https://cdn3.emoji.gg/emojis/2932-dungeonsanddragons.gif)](https://emoji.gg/emoji/2932-dungeonsanddragons)
+© 2024 JARVIIS LLC. Confidential and Proprietary. All Rights Reserved. Roll for Success🧙🏾‍♂️.
