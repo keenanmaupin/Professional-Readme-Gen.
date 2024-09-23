@@ -18,11 +18,11 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'MIT') {
-    return  `![license](https://opensource.org/licenses/${license}`;
+    return  `![license](https://opensource.org/licenses/${license})`;
   }else if (license === 'Apache License 2.0') {
-    return  `![license](https://opensource.org/licenses/${license}`;
+    return  `![license](https://opensource.org/licenses/${license})`;
   } else if (license === 'ISC') {
-    return  `![license](https://opensource.org/licenses/${license}`;
+    return  `![license](https://opensource.org/licenses/${license})`;
   } else if (license === '[NONE]') {
     return '[NONE]';
   }
@@ -79,17 +79,18 @@ function generateMarkdown(answers) {
 -------------------------------------------------------
 ## License
 - ${renderLicenseSection(answers.Q7)}
+- ${renderLicenseLink(answers.Q7)}
 ## Description
 
 🪝[Quick-Referance-I.D.] 
 - <${answers.Q2}>
 
 🪝[In-Depth-I.D.] 
-- <${answers.Q14}>
-- <${answers.Q15}>
-- <${answers.Q16}>
-- <${answers.Q17}> 
-- <${answers.Q18}>
+- ${answers.Q14}
+- ${answers.Q15}
+- ${answers.Q16}
+- ${answers.Q17}
+- ${answers.Q18}
 
 -------------------------------------------------------
 ## Installation
@@ -100,24 +101,24 @@ function generateMarkdown(answers) {
 - ${answers.Q5}
 -------------------------------------------------------
 ## User Story
-- 🕯️<${answers.Q12}>
+- 🕯️${answers.Q12}
 
 ## Acceptance Criteria
-- 🕯️<${answers.Q13}>
+- 🕯️${answers.Q13}
 -------------------------------------------------------
 
 ## Testing
-- 🧪<${answers.Q6}>
+- 🧪${answers.Q6}
 
 ## Questions
-- 🖍️[GitHub]:<${answers.Q8}> 
+- 🖍️[GitHub]:${answers.Q8}>
 
 
 https://github.com/${answers.Q8}
 
-- [EmailAddress]:<${answers.Q9}>🍄
-- [LinkedIn]:<${answers.Q10}>🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):]<${answers.Q11}>🪵
+- [EmailAddress]:${answers.Q9}🍄
+- [LinkedIn]:${answers.Q10}🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):] ${answers.Q11}🪵
 
 ---
 
