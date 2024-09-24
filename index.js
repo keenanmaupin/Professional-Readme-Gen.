@@ -7,7 +7,7 @@ import generateMarkdown from './utils/generateMarkdown.js';
 // TODO: Create an array of questions for user input
 // These are ALL the questions that my user will be prompted with
 const questions = ['JARVIIS LINK connected , Good-Evening ...What would you like for your TITLE ?',
-     'Short-Hand Description of set Project ?' ,'Are there going to be any Install Instrcutions ::If-Not [N/A] for Future Aid:: Follow PREVIOUSE COMMAND for Incoming QUESTIONS ?', 
+     'Short-Hand Description of set Project ?','Are there going to be any Install Instrcutions ::If-Not [N/A] for Future Aid:: Follow PREVIOUSE COMMAND for Incoming QUESTIONS ?', 
     'Will I be including its Usage Information ?', 'Are there any Contribution Guidelines I can add for you ?', 
     'How will we be Testing set project: Instructions ?','And will there be a License I can apply for you',
      'Requesting GitHub: UserName','Email Address: Please ','Would you like me to provide a LinkedIn account ?',
@@ -71,7 +71,7 @@ function init() {
                 type: 'list',
                 name: 'Q7',
                 message: questions[6],
-                choices: ['[NONE]','Apache License 2.0', 'MIT','ISC'],
+                choices: ['MIT','ISC','Apache License 2.0','[NONE]'],
             },
             {
                 type: 'input',

@@ -26,7 +26,7 @@ function renderLicenseLink(license) {
   } else if (license === '[NONE]') {
     return '[NONE]';
   }
-
+  
 
 }
 
@@ -34,11 +34,11 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'MIT') {
-    return  `This project is licensed under the MIT License.`;
+    return  `This project is licensed under the [ MIT ] License.`;
   } else if (license === 'Apache License 2.0') {
-    return  `This project is licensed under the Apache License 2.0.`;
+    return  `This project is licensed under the [ Apache License 2.0 ].`;
   } else if (license === 'ISC') {
-    return  `This project is licensed under the ISC License.`;
+    return  `This project is licensed under the [ ISC ] License.`;
   } else if (license === '[NONE]') {
     return '[NONE]';
   }
@@ -47,12 +47,14 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  return `- TITLE:
-- 👑${answers.Q1}
+  return `
+  - TITLE:
+👑${answers.Q1}
 
-- ${answers.Q11}🪙💸
+- ${answers.Q9}🪙💸
 
 - ${renderLicenseBadge(answers.Q7)}
+-----------------------------------------------------------
 
 - 🧭 Table of Contents 🧭 
 
@@ -79,11 +81,12 @@ function generateMarkdown(answers) {
 -------------------------------------------------------
 ## License
 - ${renderLicenseSection(answers.Q7)}
-- ${renderLicenseLink(answers.Q7)}
+- https://opensource.org/licenses/${answers.Q7}
+
 ## Description
 
 🪝[Quick-Referance-I.D.] 
-- <${answers.Q2}>
+- ${answers.Q2}
 
 🪝[In-Depth-I.D.] 
 - ${answers.Q14}
@@ -111,14 +114,13 @@ function generateMarkdown(answers) {
 - 🧪${answers.Q6}
 
 ## Questions
-- 🖍️[GitHub]:${answers.Q8}>
+- 🖍️[GitHub]:
+${answers.Q8}>
+- https://github.com/${answers.Q8}
 
-
-https://github.com/${answers.Q8}
-
-- [EmailAddress]:${answers.Q9}🍄
-- [LinkedIn]:${answers.Q10}🪨
-- [Best.way.to.get.ahold.of.me.for.further.Question(s):] ${answers.Q11}🪵
+- [EmailAddress:] ${answers.Q9} 🍄
+- [LinkedIn:] ${answers.Q10} 🪨
+- [Best.way.to.get.ahold.of.me.for.further.Question(s):] ${answers.Q11} 🪵
 
 ---
 
