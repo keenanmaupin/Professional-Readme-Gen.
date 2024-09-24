@@ -4,9 +4,9 @@ function renderLicenseBadge(license) {
   if (license === 'MIT') {
     return  `![License](https://img.shields.io/badge/license-${license}-green)`;
   }else if (license === 'Apache License 2.0') {
-    return  `![License](https://img.shields.io/badge/license-${license}-green)`;
+    return  `![License](https://img.shields.io/badge/license-${license}-blue)`;
   } else if (license === 'ISC') {
-    return  `![License](https://img.shields.io/badge/license-${license}-green)`;
+    return  `![License](https://img.shields.io/badge/license-${license}-yellow)`;
   } else if (license === '[NONE]') {
     return '[NONE]';
   }
@@ -96,7 +96,7 @@ function generateMarkdown(answers) {
 - ${answers.Q18}
 
 -------------------------------------------------------
-## Installation
+## Installation directions
 - ${answers.Q3}
 ## Usage
 - ${answers.Q4}

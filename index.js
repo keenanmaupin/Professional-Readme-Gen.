@@ -134,8 +134,6 @@ function init() {
         
     ]).then((answers) => {
 const README = generateMarkdown(answers)
-
-
 // here I needed to create function that would write the file and tell me if there was an ERROR in doing so
 fs.writeFile('README.md', README, (err) => {
     if (err) {
