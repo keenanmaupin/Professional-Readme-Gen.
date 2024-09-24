@@ -48,7 +48,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-  - TITLE:
+  :TITLE:
 👑${answers.Q1}
 
 - ${answers.Q9}🪙💸
@@ -76,7 +76,7 @@ function generateMarkdown(answers) {
 
 - [Questions](#questions)
 
-
+- [ADD SECTION HERE IF NEEDED .yw](#add-section-here-if-needed-yw)
 
 -------------------------------------------------------
 ## License
@@ -96,7 +96,7 @@ function generateMarkdown(answers) {
 - ${answers.Q18}
 
 -------------------------------------------------------
-## Installation directions
+## Installation 
 - ${answers.Q3}
 ## Usage
 - ${answers.Q4}
@@ -104,22 +104,23 @@ function generateMarkdown(answers) {
 - ${answers.Q5}
 -------------------------------------------------------
 ## User Story
-- 🕯️${answers.Q12}
+- 🕯️${answers.Q12}🕯️
 
 ## Acceptance Criteria
-- 🕯️${answers.Q13}
+- 🕯️${answers.Q13}🕯️
 -------------------------------------------------------
 
 ## Testing
 - 🧪${answers.Q6}
 
-## Questions
-- 🖍️[GitHub]:
-${answers.Q8}>
-- https://github.com/${answers.Q8}
+## ADD SECTION HERE IF NEEDED .yw
 
+## Questions
+- 🖍️[GitHub]🖍️: ${answers.Q8}
+- https://github.com/${answers.Q8}
 - [EmailAddress:] ${answers.Q9} 🍄
 - [LinkedIn:] ${answers.Q10} 🪨
+
 - [Best.way.to.get.ahold.of.me.for.further.Question(s):] ${answers.Q11} 🪵
 
 ---
