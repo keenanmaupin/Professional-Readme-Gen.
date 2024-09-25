@@ -81,7 +81,8 @@ THEN I am taken to the corresponding section of the README🕯️
 - 🧪 WILL ADD IN FUTURE 🧪
 
 ## Added Resources:
-ADD VIDEO DEMO>>>
+- VIDEO DEMO URL>>> https://drive.google.com/file/d/1Iv4f48ut2j08KmxhT899N6MEYO_PBKOu/view
+
 ## GitHub Repository: 
 https://github.com/keenanmaupin/Professional-Readme-Gen
 
