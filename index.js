@@ -135,7 +135,7 @@ function init() {
     ]).then((answers) => {
 const README = generateMarkdown(answers)
 // here I needed to create function that would write the file and tell me if there was an ERROR in doing so
-fs.writeFile('README.md', README, (err) => {
+fs.writeFile('READMEgen.md', README, (err) => {
     if (err) {
     console.log(colors.red('Space Controle to Ground Control, we have an fatal ERROR!!'), err);
     } else {
