@@ -1,6 +1,6 @@
 :TITLE:
 👑JARVIIS README.gen
-
+[START CMD: node index.js]
 - maupin.keenan97@gmail.com🪙💸
 
 - [NONE]

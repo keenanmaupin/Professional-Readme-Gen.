@@ -1,10 +1,10 @@
 
   :TITLE:
-👑N/A
+👑social_media_backend
 
-- Maupin@gmail.com🪙💸
+- maupin.keenan97@gmail.com🪙💸
 
-- ![License](https://img.shields.io/badge/license-MIT-green)
+- [NONE]
 -----------------------------------------------------------
 
 - 🧭 Table of Contents 🧭 
@@ -31,46 +31,46 @@
 
 -------------------------------------------------------
 ## License
-- This project is licensed under the [ MIT ] License.
-- https://opensource.org/licenses/MIT
+- [NONE]
+- https://opensource.org/licenses/[NONE]
 
 ## Description
 
 🪝[Quick-Referance-I.D.] 
-- N/A
+- API built from scratch for a social media network app where users can share their thoughts and be able to react to thoughts.
 
 🪝[In-Depth-I.D.] 
-- N/A
-- N/A
-- N/A
-- N/A
-- N/A
+- Main motivation of this project is to demonstrate That I am able to create a dtat base using express and mongoose pkgs for a networking platform.
+- Reason: to apply knowledge to a real world application.
+- [NONE]
+- I learned how to properly use a NoSQL data base within the backend.
+- [NONE]
 
 -------------------------------------------------------
 ## Installation 
-- N/A
+- Express | Mongoose | 
 ## Usage
-- N/A
+- [NONE]
 ## Contributions
-- N/A
+- [NONE]
 -------------------------------------------------------
 ## User Story
-- 🕯️N/A🕯️
+- 🕯️[ADD HERE]🕯️
 
 ## Acceptance Criteria
-- 🕯️N/A🕯️
+- 🕯️[ADD HERE]🕯️
 -------------------------------------------------------
 
 ## Testing
-- 🧪N/A
+- 🧪VIDEO DEMO 
 
 ## ADD SECTION HERE IF NEEDED .yw
 
 ## Questions
 - 🖍️[GitHub]🖍️: keenanmaupin
 - https://github.com/keenanmaupin
-- [EmailAddress:] Maupin@gmail.com 🍄
-- [LinkedIn:] N/A 🪨
+- [EmailAddress:] maupin.keenan97@gmail.com 🍄
+- [LinkedIn:] VIDEO DEMO  🪨
 
 - [Best.way.to.get.ahold.of.me.for.further.Question(s):] Email 🪵
 
